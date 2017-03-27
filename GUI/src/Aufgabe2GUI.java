@@ -22,7 +22,7 @@ public class Aufgabe2GUI extends JFrame {
 		aufgabe2.setVisible(true);
 	}
 	public Aufgabe2GUI(){
-		setBounds(100,100,200,200);
+		setBounds(100,100,300,300);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		contentPane.setLayout( new BorderLayout());
 		JButton btnMeinButton = new JButton();
