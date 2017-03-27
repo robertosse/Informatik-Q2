@@ -1,4 +1,5 @@
 import java.awt.BorderLayout;
+import java.awt.Color;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -24,6 +25,7 @@ public class Aufgabe2GUI extends JFrame {
 	public Aufgabe2GUI(){
 		setBounds(100,100,300,300);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setBackground(Color.LIGHT_GRAY);
 		contentPane.setLayout( new BorderLayout());
 		JButton btnMeinButton = new JButton();
 		JProgressBar pgbMeinProgressbar = new JProgressBar();
